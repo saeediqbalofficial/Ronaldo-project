@@ -1,0 +1,31 @@
+To Configure and Run The Project Follow These Instructions
+
+1) Open Terminal goto airbn directory and Enter Cammand "npm install"
+2) Open Terminal goto airbn-admin directory and Enter Cammand "npm install"
+3) Open Terminal goto backend directory and Enter Cammand "npm install"
+
+After doing this, it will install all the required packages / models which can be seen inside package.JSON
+
+
+Now to Configure Mysql database
+1) Install localhost XAMMP Server
+2) Start Apache and Mysql Server from XAMMP 
+3) Create an empty database with exact name "hotelmanagement"
+4) import the database file "hotelmanagement.sql" (Given in project root directory)
+5) Run go query and bump! your database is successfuly created
+
+
+
+Now let's Run the project:
+
+Note: Front End Design for client user is inside airbnb folder
+1) Open new Terminal browse to project folder > airbnb and type cammand "npm start" // this will  run your react app for client on port 3000
+2) Open new Terminal browse to project folder > backend and type cammand "node app.js" // this will  run yourNode JS Server on port 8000
+
+
+Note: Front End Design for Admin user is inside airbnb-admin folder
+1) Open new Terminal browse to project folder > airbnb-admin and type cammand "npm start" // this will  run your react app for admin on port 3000
+2) Open new Terminal browse to project folder > backend and type cammand "node app.js" // this will  run yourNode JS Server on port 8000
+
+
+That's it you have successfuly run this project
